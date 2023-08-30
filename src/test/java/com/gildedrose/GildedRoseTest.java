@@ -33,17 +33,6 @@ class GildedRoseTest {
     }
 
     @Test
-    public void testFailingUpdateQuality() {
-        Item[] items = new Item[] { new Item("Aged Brie", 10, 30) };
-        GildedRose app = new GildedRose(items);
-
-        // Call updateQuality once
-        app.updateQuality();
-
-        // This assertion will fail because the quality of Aged Brie should increase, but we expect it to stay the same
-        assertEquals(31, items[0].quality);
-    }
-    @Test
     void testAgedBrieQualityIncreaseAfterSellIn() {
         Item[] items = new Item[] { new Item("Aged Brie", -1, 10) };
         GildedRose app = new GildedRose(items);

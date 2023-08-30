@@ -1,15 +1,12 @@
-# Gilded Rose starting position in Java
+# Gilded Rose
+This is a Java implementation of the Gilded Rose code.
 
-## Run the Text Fixture from Command-Line
+# Introduction
+This project helps manage items in a store. It keeps an eye on their quality and how long they can be sold.
 
-```
-./gradlew -q text
-```
+# Requirements
+To run this project, you need the following:
 
-### Specify Number of Days
+* Java - The Java Development Kit (JDK)
+* Gradle - A build tool for Java projects
 
-For e.g. 10 days:
-
-```
-./gradlew -q text --args 10
-```

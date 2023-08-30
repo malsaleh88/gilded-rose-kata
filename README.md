@@ -10,6 +10,18 @@ To run this project, you need the following:
 * Java - The Java Development Kit (JDK)
 * Gradle - A build tool for Java projects
 
+
+# Running the Application
+To run the application, follow these steps:
+
+* Clone this repository to your local machine:
+
+git clone https://github.com/your-username/gilded-rose-java.git
+
+* Open your terminal and navigate to the project directory:
+
+./gradlew -q text
+
 # Running Tests
 To run the project's unit tests:
 
